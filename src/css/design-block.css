@@ -1,0 +1,300 @@
+@media (min-width: 1025px) {
+
+    .design-block__wrapper {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/night_city.png) 50%/cover;
+    }
+
+    .design-block {
+        max-width: 1200px;
+        padding: 104px 15px 49px;
+        margin: 0 auto;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .design-block__title {
+        position: relative;
+
+        padding-bottom: 55px;
+
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 42px;
+        text-transform: uppercase;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .design-block__title::after {
+        position: absolute;
+        content: "";
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+
+        width: 170px;
+        height: 1px;
+        margin: 0 auto;
+        background-color: #FFFFFF;
+    }
+
+    .design-block__subtitle {
+        margin-top: 39px;
+
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+
+    .design-block__button {
+        margin-top: 73px;
+        width: 370px;
+        padding: 15px;
+        border: 2px solid #FFFFFF;
+
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+
+        transition-duration: 0.4s;
+        cursor: pointer;
+
+        background-color: transparent;
+    }
+
+
+    .design-block__button:hover {
+        border: 2px solid #EC7979;
+
+        transition-duration: 0.4s;
+
+        color: #EC7979;
+        background-color: transparent;
+    }
+
+    .design-block__button:active {
+        border: 2px solid #AB4949;
+
+        transition-duration: 0.4s;
+
+        color: #FFFFFF;
+        background-color: #AB4949;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .design-block__wrapper {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/night_city.png) 50%/cover;
+    }
+
+    .design-block {
+        padding: 96px 15px 49px;
+        margin: 0 auto;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .design-block__title {
+        position: relative;
+
+        padding-bottom: 47px;
+
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        text-transform: uppercase;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .design-block__title::after {
+        position: absolute;
+        content: "";
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+
+        width: 142px;
+        height: 1px;
+        margin: 0 auto;
+        background-color: #FFFFFF;
+    }
+
+    .design-block__subtitle {
+        margin-top: 31px;
+
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+
+    .design-block__button {
+        margin-top: 32px;
+        width: 318px;
+        padding: 15px;
+        border: 2px solid #FFFFFF;
+
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+
+        transition-duration: 0.4s;
+        cursor: pointer;
+
+        background-color: transparent;
+    }
+
+
+    .design-block__button:hover {
+        border: 2px solid #EC7979;
+
+        transition-duration: 0.4s;
+
+        color: #EC7979;
+        background-color: transparent;
+    }
+
+    .design-block__button:active {
+        border: 2px solid #AB4949;
+
+        transition-duration: 0.4s;
+
+        color: #FFFFFF;
+        background-color: #AB4949;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .design-block__wrapper {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/city-mobile.jpg) 50%/cover;
+    }
+
+    .design-block {
+        padding: 46px 15px 57px;
+        margin: 0 auto;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .design-block__title {
+        position: relative;
+
+        padding-bottom: 47px;
+
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        text-transform: uppercase;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .design-block__title::after {
+        position: absolute;
+        content: "";
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+
+        width: 134px;
+        height: 1px;
+        margin: 0 auto;
+        background-color: #FFFFFF;
+    }
+
+    .design-block__subtitle {
+        width: 99%;
+        margin-top: 16px;
+
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+
+    .design-block__button {
+        margin-top: 65px;
+        width: 287px;
+        padding: 11px;
+        border: 2px solid #FFFFFF;
+
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+
+        transition-duration: 0.4s;
+        cursor: pointer;
+
+        background-color: transparent;
+    }
+
+
+    .design-block__button:hover {
+        border: 2px solid #EC7979;
+
+        transition-duration: 0.4s;
+
+        color: #EC7979;
+        background-color: transparent;
+    }
+
+    .design-block__button:active {
+        border: 2px solid #AB4949;
+
+        transition-duration: 0.4s;
+
+        color: #FFFFFF;
+        background-color: #AB4949;
+    }
+
+}

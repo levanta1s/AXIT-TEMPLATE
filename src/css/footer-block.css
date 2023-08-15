@@ -1,0 +1,144 @@
+@media (min-width: 1025px) {
+
+    .footer-block__wrapper {
+        background-color: #000000;
+    }
+
+    .footer-block {
+        max-width: 1200px;
+        padding: 35px 15px 10px 15px;
+        margin: 0 auto;
+    }
+
+    .footer-block__links {
+        margin-left: 3px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3%;
+
+        font-size: 41px;
+        list-style-type: none;
+    }
+
+    .footer-block__links li:nth-child(2){
+        margin-left: 4px;
+    }
+
+    .footer-block__links li:nth-child(3){
+        margin-left: 7px;
+    }
+
+    .footer-block__links li:nth-child(4){
+        margin-left: 9px;
+    }
+
+    .footer-block__links li a {
+        text-decoration: none;
+    }
+
+    .footer-block__copyright {
+        margin-top: 20px;
+
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+
+        color: #86878B;
+    }
+
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+
+    .footer-block__wrapper {
+        background-color: #000000;
+    }
+
+    .footer-block {
+        padding: 36px 15px 21px;
+        margin: 0 auto;
+    }
+
+    .footer-block__links {
+        margin-left: 31px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4%;
+
+        font-size: 35px;
+
+        list-style-type: none;
+    }
+
+    .footer-block__links li a {
+        text-decoration: none;
+    }
+
+    .footer-block__copyright {
+        margin-top: 31px;
+
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+
+        color: #86878B;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .footer-block__wrapper {
+        background-color: #000000;
+    }
+
+    .footer-block {
+        padding: 35px 15px 43px;
+        margin: 0 auto;
+    }
+
+    .footer-block__links {
+        margin-left: 4px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 5%;
+
+        font-size: 20px;
+
+        list-style-type: none;
+
+    }
+
+    .footer-block__links li a {
+        text-decoration: none;
+    }
+
+    .footer-block__copyright {
+        margin-top: 40px;
+
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+
+        color: #86878B;
+    }
+
+}
+
+
